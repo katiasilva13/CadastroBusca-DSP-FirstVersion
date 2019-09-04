@@ -19,26 +19,24 @@ public class pesquisa_id {
         InputStream is = new FileInputStream("src\\busca_id\\pesquisa.txt");
         InputStreamReader isr = new InputStreamReader(is, "UTF-8");
         BufferedReader br = new BufferedReader(isr);
-        
-   /*     StringBuffer stringBuffer = new StringBuffer("");
-        String line = null;
 
-        while ((line = br.readLine()) != null) {
-            stringBuffer.append(line);
-        }
-  */   
+        /*     StringBuffer stringBuffer = new StringBuffer("");
+         String line = null;
+
+         while ((line = br.readLine()) != null) {
+         stringBuffer.append(line);
+         }
+         */
         String s = br.readLine();
      //     Stream<String> s = br.lines();
-        
 
         //TODO Procurar biblioteca/método que consiga ler todas as linhas do arquivo
         //   String s = br.readAllLines();
         System.out.print("Digite o id a ser pesquisado: ");
         String id = new Scanner(System.in).next();
-       Matcher m = Pattern.compile(id).matcher(s);
-        
+        Matcher m = Pattern.compile(id).matcher(s);
+
       //    Matcher m = Pattern.compile(id).matcher(line);
-          
         if (m.find()) {
             System.out.println("Encontrado");
         } else {
@@ -55,7 +53,7 @@ public class pesquisa_id {
          }
          }
          */
-         //   return numeroDeOcorrencias;
+        //   return numeroDeOcorrencias;
     }
 
     /*public static void main (String[] args) throws FileNotFoundException, UnsupportedEncodingException, IOException   {
