@@ -20,7 +20,7 @@ public class GravarDados {
 
     public static void gravar() throws IOException {
         int ident, num, cep;
-        FileWriter dados = new FileWriter("src\\Cadastro.txt", true);
+        FileWriter dados = new FileWriter("src\\CadastroTeste.txt", true);
         PrintWriter gravarDados = new PrintWriter(dados);
         BufferedWriter printDados = new BufferedWriter(dados);
 
@@ -31,7 +31,11 @@ public class GravarDados {
             gravarDados.printf("%d,", num);
         } catch (InputMismatchException ex) {
             System.out.println("Erro: So numeros são aceitos ");
-        } finally {
+        } 
+        //isso não resolve o problema
+        //tentar switch case, while, if/else sei lá
+        //melhor fazer um método pra tratar cada variável
+        finally {
             Scanner nu = new Scanner(System.in);
             System.out.printf("Numero:");
             num = nu.nextInt();
