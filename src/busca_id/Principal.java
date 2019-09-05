@@ -15,5 +15,7 @@ public class Principal {
         Registro reg = new Registro();
       // reg.cadastrar();
         
+        //TODO modificar pesquisa, pesquisar somente por ID
+        //pesquisar sobre split etc
     }
 }
