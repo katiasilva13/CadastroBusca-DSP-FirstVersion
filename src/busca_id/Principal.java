@@ -10,10 +10,13 @@ public class Principal {
     //    pesquisaId.pesquisa();
         
         Pesquisa_idTESTE test = new Pesquisa_idTESTE();
-        test.pesquisa();
+    //     test.pesquisa();
         
         Registro reg = new Registro();
       // reg.cadastrar();
+        
+        GravarDados g = new GravarDados();
+     //  g.gravar();
         
         //TODO modificar pesquisa, pesquisar somente por ID
         //pesquisar sobre split etc
