@@ -1,0 +1,9 @@
+﻿
+13, Marina, 13111998,0011223344,R.,101,10,Maringa,PR;
+27, Jorge, 01011991,0000000012,Rua,3,20,Terra,PR;
+3, Paula, 20031999,200000003,Rua201,600052,Paranavai,PR;
+5, Lucas, 01022001,30005030,,404,40440001,Loanda,PR;
+33, Aparato, 08031995,330000520,Rua,404,3333000,Floresta,PR;
+33, Aparato Futurista 02, 08032019,03555522200,Rua Pelo Amor de Gzuis,505,505050,Porto,PR;
+52, Sapato, 05052005,30201000,Rua dos Alfeneiros,4,101020,Londrina,PR;
+60, Caixa de Sapato dos Santos, 06121999,(44)8800-2300,Rua Muito Engra�ada,202,202000,Cidade Can��o,PR;

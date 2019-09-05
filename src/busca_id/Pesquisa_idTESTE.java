@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 public class Pesquisa_idTESTE {
 
     public void pesquisa() throws FileNotFoundException, UnsupportedEncodingException, IOException {
-        InputStream is = new FileInputStream("src\\busca_id\\pesquisa.txt");
+        InputStream is = new FileInputStream("src\\busca_id\\Cadastro.txt");
         InputStreamReader isr = new InputStreamReader(is, "UTF-8");
         BufferedReader br = new BufferedReader(isr);
         
